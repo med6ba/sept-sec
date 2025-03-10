@@ -1,3 +1,17 @@
+:root {
+  /* Light Mode Palette */
+  --primary-color-light: #66bb6a; /* Light */
+  --secondary-color-light: #81c784; /* Soft */
+  --background-light: #f1f8e9; /* Light background */
+  --text-light: #1b5e20; /* Dark text */
+
+  /* Dark Mode Palette */
+  --primary-color-dark: #388e3c; /* Dark */
+  --secondary-color-dark: #2c6e2f; /* Darker */
+  --background-dark: #1b5e20; /* Dark background */
+  --text-dark: #c8e6c9; /* Light text */
+}
+
 * {
   margin: 0;
   padding: 0;
