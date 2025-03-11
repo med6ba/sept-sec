@@ -24,7 +24,7 @@
       type="image/x-icon"
     />
   </head>
-  <body>
+  <body class="bg-light">
     <!-- Back to TOP -->
     <div id="progress">
       <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
@@ -74,8 +74,48 @@
     </nav>
 
     <!-- Main -->
-    <main>
-      <section id="home"></section>
+    <main class="container">
+      <section class="py-5" id="home">
+        <div class="row align-items-center text-center text-lg-start">
+          <!-- Left Side: Text Content -->
+          <div class="col-lg-6">
+            <span class="badge bg-dark fs-6 mb-3"
+              ><i class="fa-regular fa-circle-dot fa-beat-fade text-danger"></i>
+              &nbsp; 24/7 Cleaning Service</span
+            >
+            <h1 class="fw-bold">SEVEN SEC</h1>
+            <p class="lead text-muted">
+              We clean up your professional life
+              <br />
+              Fast and reliable cleaning services for businesses and
+              individuals.
+            </p>
+            <div class="bg-light rounded">
+              <h4 class="fw-bold">Our Eco-Friendly Impact 🌿</h4>
+              <p>
+                We have saved
+                <span id="ecoCounter" class="fw-bold text-success">874</span>
+                liters of water this month!
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-dark mt-3"
+              >Scroll for More &nbsp;<i
+                class="fa-solid fa-arrow-down fa-fade"
+              ></i
+            ></a>
+          </div>
+
+          <!-- Right Side: Image -->
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <img
+              src="assets/images/ill-4-rm.png"
+              class="img-fluid rounded"
+              alt="Cleaning Service"
+            />
+          </div>
+        </div>
+      </section>
       <section id="services"></section>
       <section id="about"></section>
       <section id="pricing"></section>
