@@ -12,12 +12,14 @@
   --text-dark: #c8e6c9; /* Light text */
 }
 
+/* Initializing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Importing poppins fonts */
 @font-face {
   font-family: pm;
   src: url(../fonts/poppins-medium.ttf);
