@@ -21,7 +21,7 @@ let calcScrollValue = () => {
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
 
-// liters counter
+// ecoCounter
 let counter = 874;
 setInterval(() => {
   counter += 6;
