@@ -12,12 +12,12 @@
     />
     <meta property="og:url" content="https://sevensec.vercel.app" />
     <!-- Required links -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/font-awesome/css/all.css" />
     <!-- Website title -->
     <title>Seven Sec</title>
-    <!-- Website FavIcon -->
+    <!-- Website Favicon -->
     <link
       rel="shortcut icon"
       href="assets/images/favicon.png"
@@ -31,12 +31,62 @@
     </div>
 
     <!-- Navbar -->
-    <nav></nav>
+    <nav class="navbar navbar-expand-lg container">
+      <div class="container d-flex align-items-center justify-content-between">
+        <button id="theme-switch" class="btn d-lg-none">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <a class="navbar-brand mx-lg-0 mx-auto fw-bold" href="index.html">
+          <img src="assets/images/logo.png" width="60px" alt="Logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="container d-none d-lg-flex justify-content-end">
+        <button id="theme-switch" class="btn">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </div>
+    </nav>
 
     <!-- Main -->
-    <main></main>
+    <main>
+      <section id="home"></section>
+      <section id="services"></section>
+      <section id="about"></section>
+      <section id="pricing"></section>
+      <section id="contact"></section>
+    </main>
 
     <!-- Footer -->
     <footer></footer>
+
+    <!-- Required scripts -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
   </body>
 </html>
