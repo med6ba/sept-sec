@@ -20,10 +20,3 @@ let calcScrollValue = () => {
 
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
-
-// ecoCounter
-let counter = 874;
-setInterval(() => {
-  counter += 6;
-  document.getElementById("ecoCounter").textContent = counter;
-}, 1794);
