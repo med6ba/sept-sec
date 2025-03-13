@@ -24,19 +24,15 @@
       type="image/x-icon"
     />
   </head>
-  <body class="bg- bg-danger">
-    <!-- Back to TOP -->
-    <div id="progress">
-      <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
-    </div>
-
+  <body class="bg-light container">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg container">
+    <nav class="navbar navbar-expand-lg sticky-top shadow m-2 rounded" id="nav">
       <div class="container d-flex align-items-center justify-content-between">
-        <button id="theme-switch" class="btn d-lg-none">
-          <i class="fa-solid fa-moon"></i>
-          <i class="fa-solid fa-sun"></i>
-        </button>
+        <a href="#" class="d-lg-none text-decoration-none">
+          <button class="btn border border-0 text-dark">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+          </button>
+        </a>
 
         <a class="navbar-brand mx-lg-0 mx-auto fw-bold" href="index.html">
           <img
@@ -48,7 +44,7 @@
         </a>
 
         <button
-          class="navbar-toggler"
+          class="navbar-toggler text-dark"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -56,31 +52,38 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars"></i>
         </button>
       </div>
 
       <div class="collapse navbar-collapse text-center" id="navbarNav">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
           <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
         </ul>
       </div>
 
       <div class="container d-none d-lg-flex justify-content-end">
-        <button id="theme-switch" class="btn">
-          <i class="fa-solid fa-moon"></i>
-          <i class="fa-solid fa-sun"></i>
-        </button>
+        <a href="#" class="text-dark">
+          <button class="btn btn-dark">Log in</button>
+        </a>
       </div>
     </nav>
 
     <!-- Main -->
     <main class="container">
-      <section id="home">
+      <!-- <section
+        id="homee"
+        class="d-flex justify-content-center align-items-center"
+      >
         <div class="row align-items-center text-center text-lg-start">
           <div class="col-lg-6">
             <span
@@ -104,33 +107,43 @@
                     <i
                       class="fa-solid fa-circle-check text-success me-2 fs-5"
                     ></i>
-                    <span class="flex-grow-1 d-flex align-items-center justify-content-lg-start justify-content-start">Certified Experts</span>
+                    <span
+                      class="flex-grow-1 d-flex align-items-center justify-content-lg-start justify-content-start"
+                      >Certified Experts</span
+                    >
                   </li>
                   <li
                     class="d-flex align-items-center justify-content-lg-start justify-content-center mb-2"
                   >
                     <i class="fa-solid fa-leaf text-success me-2 fs-5"></i>
-                    <span class="flex-grow-1 d-flex align-items-center justify-content-lg-start justify-content-start">Eco-Friendly</span>
+                    <span
+                      class="flex-grow-1 d-flex align-items-center justify-content-lg-start justify-content-start"
+                      >Eco-Friendly</span
+                    >
                   </li>
                   <li
                     class="d-flex align-items-center justify-content-lg-start justify-content-center mb-2"
                   >
                     <i class="fa-solid fa-thumbs-up text-success me-2 fs-5"></i>
-                    <span class="flex-grow-1 d-flex align-items-center justify-content-lg-start justify-content-start">5-Star Rated</span>
+                    <span
+                      class="flex-grow-1 d-flex align-items-center justify-content-lg-start justify-content-start"
+                      >5-Star Rated</span
+                    >
                   </li>
                   <li
                     class="d-flex align-items-center justify-content-lg-start justify-content-center"
                   >
                     <i class="fa-solid fa-clock text-success me-2 fs-5"></i>
-                    <span class="flex-grow-1 d-flex align-items-center justify-content-lg-start justify-content-start">Fast & Reliable</span>
+                    <span
+                      class="flex-grow-1 d-flex align-items-center justify-content-lg-start justify-content-start"
+                      >Fast & Reliable</span
+                    >
                   </li>
                 </ul>
               </blockquote>
             </div>
             <a href="#" class="btn btn-dark mt-3"
-              >Scroll for More &nbsp;<i
-                class="fa-solid fa-arrow-down fa-fade"
-              ></i
+              >Learn more &nbsp;<i class="fa-solid fa-arrow-down fa-fade"></i
             ></a>
           </div>
           <div
@@ -143,11 +156,7 @@
             />
           </div>
         </div>
-      </section>
-      <section class="" id="services"></section>
-      <section id="about"></section>
-      <section id="pricing"></section>
-      <section id="contact"></section>
+      </section> -->
     </main>
 
     <!-- Footer -->

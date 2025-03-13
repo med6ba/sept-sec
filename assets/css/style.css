@@ -1,19 +1,4 @@
 :root {
-  --bg-color: #ffffff;
-  --text-color: #000000;
-  --secondary-text: #555555;
-  --border-color: #dddddd;
-  --button-bg: #333333;
-  --button-text: #ffffff;
-}
-
-.dark-mode {
-  --bg-color: #111111;
-  --text-color: #ffffff;
-  --secondary-text: #bbbbbb;
-  --border-color: #333333;
-  --button-bg: #eeeeee;
-  --button-text: #111111;
 }
 
 /* Initializing */
@@ -36,4 +21,15 @@
 @font-face {
   font-family: peb;
   src: url(../fonts/poppins-extrabold.ttf);
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
