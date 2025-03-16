@@ -38,6 +38,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100%;
 }
 
 .navbar-toggler {
@@ -52,7 +53,7 @@ main {
 }
 
 nav {
-  border: 2px var(--primary) solid;
+  border: 2px var(--accent) solid;
   border-top: 0;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -120,13 +121,17 @@ nav i {
   border: 3px solid;
   border-radius: 20px !important;
   font-family: pb;
-  color: var(--primary) !important;
+  color: var(--dark) !important;
 }
 
 .hero-text h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: peb;
-  color: var(--primary);
+  background: linear-gradient(90deg, #fe8c00, #f83600);
+  background-clip: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .hero-text p {
@@ -157,7 +162,7 @@ nav i {
   background-image: linear-gradient(
     to right,
     #fe8c00 0%,
-    #f83600 51%,
+    #f83600 50%,
     #fe8c00 100%
   );
 }
@@ -169,14 +174,25 @@ nav i {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
+  color: var(--light);
+  box-shadow: 0 0 20px var(--light);
   border-radius: 10px;
   display: block;
 }
 
 .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
+  background-position: right center;
+  color: var(--light);
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 1.2rem;
+    color: var(--dark);
+    font-family: pb;
+  }
 }
