@@ -89,11 +89,5 @@ nav i{
 
 #logo{
   user-select: none;
-  color: var(--primary);
-  transition: all 0.1s ease;
-}
-
-#logo:hover{
   color: var(--accent);
-  transition: all 0.1s ease;
 }
