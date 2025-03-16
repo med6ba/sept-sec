@@ -27,8 +27,16 @@
   src: url(../fonts/poppins-extrabold.ttf);
 }
 
-body{
+body {
   background-color: var(--light) !important;
+  height: 100%;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .navbar-toggler {
@@ -43,48 +51,49 @@ body{
 }
 
 nav {
-  border: 2px var(--accent) solid;
-  border-radius: 42px;
-  max-height: 60px;
+  border: 2px var(--primary) solid;
+  border-top: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: var(--light);
 }
 
 #login-btn {
-  border-radius: 42px;
+  border-radius: 7px;
   color: var(--light);
   background-color: var(--accent);
   border: none;
   font-family: pb;
 }
 
-.active{
+#login-btn:hover{
+  background-color: #e96855;
+}
+
+.active {
   color: var(--accent) !important;
 }
 
-nav ul li a{
+nav ul li a {
   font-family: pb !important;
   color: var(--primary) !important;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: var(--accent) !important;
 }
 
-
-
-@media (max-width: 576px) {
-  nav {
-    max-height: 300px;
-  }
+nav i{
+  color: var(--primary);
 }
 
-@media (max-width: 768px) {
-  nav {
-    max-height: 300px;
-  }
+#logo{
+  user-select: none;
+  color: var(--primary);
+  transition: all 0.1s ease;
 }
 
-@media (max-width: 992px) {
-  nav {
-    max-height: 300px;
-  }
+#logo:hover{
+  color: var(--accent);
+  transition: all 0.1s ease;
 }
