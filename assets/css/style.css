@@ -74,6 +74,7 @@ nav {
 
 .active {
   color: var(--accent) !important;
+  cursor: pointer;
 }
 
 nav #logo {
@@ -196,4 +197,3 @@ nav i {
     font-family: pb;
   }
 }
-
