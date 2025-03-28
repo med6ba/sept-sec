@@ -1,8 +1,7 @@
 :root {
   --primary: #385a65;
   --accent: #fd725c;
-  --light: #e8eef2;
-  --dark: #333333;
+  --background: #e8eef2;
 }
 
 /* Initializing */
@@ -28,7 +27,7 @@
 }
 
 body {
-  background-color: var(--light) !important;
+  background-color: var(--background) !important;
   height: 100%;
   user-select: none;
 }
@@ -57,12 +56,12 @@ nav {
   border-top: 0;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  background-color: var(--light);
+  background-color: var(--background);
 }
 
 #login-btn {
   border-radius: 7px;
-  color: var(--light);
+  color: var(--background);
   background-color: var(--accent);
   border: none;
   font-family: pb;
@@ -116,13 +115,13 @@ nav i {
 }
 
 .badge {
-  background-color: var(--light);
+  background-color: var(--background);
   font-size: 1rem !important;
   padding: 8px 12px;
   border: 3px solid;
   border-radius: 20px !important;
   font-family: pb;
-  color: var(--dark) !important;
+  color: var(--primary) !important;
 }
 
 .hero-text h1 {
@@ -137,7 +136,7 @@ nav i {
 
 .hero-text p {
   font-size: 1.6rem;
-  color: var(--dark);
+  color: var(--primary);
   font-family: pm;
 }
 
@@ -152,7 +151,7 @@ nav i {
   font-size: 1.1rem !important;
   border-radius: 10px !important;
   font-family: pb;
-  color: var(--light) !important;
+  color: var(--background) !important;
 }
 
 .login {
@@ -175,15 +174,15 @@ nav i {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: var(--light);
-  box-shadow: 0 0 20px var(--light);
+  color: var(--background);
+  box-shadow: 0 0 20px var(--background);
   border-radius: 10px;
   display: block;
 }
 
 .btn-grad:hover {
   background-position: right center;
-  color: var(--light);
+  color: var(--background);
   text-decoration: none;
 }
 
@@ -193,7 +192,7 @@ nav i {
   }
   .hero-text p {
     font-size: 1.2rem;
-    color: var(--dark);
+    color: var(--primary);
     font-family: pb;
   }
 }
