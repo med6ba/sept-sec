@@ -207,8 +207,6 @@ nav i {
     padding: 5px 10px;
   }
   nav ul li a {
-    font-family: pb !important;
-    color: var(--primary) !important;
     font-size: 0.8rem !important;
   }
 }
