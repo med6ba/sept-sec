@@ -118,7 +118,7 @@ nav i {
   background-color: var(--background);
   font-size: 1rem !important;
   padding: 8px 12px;
-  border: 3px solid;
+  border: 2px solid;
   border-radius: 20px !important;
   font-family: pb;
   color: var(--primary) !important;
@@ -205,5 +205,6 @@ nav i {
   .badge {
     font-size: 0.7rem !important;
     padding: 5px 10px;
+    border: 1px solid;
   }
 }
