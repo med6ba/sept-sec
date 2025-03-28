@@ -188,11 +188,22 @@ nav i {
 
 @media (max-width: 768px) {
   .hero-text h1 {
-    font-size: 2rem;
+    font-size: 1.8em;
   }
   .hero-text p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--primary);
     font-family: pb;
+  }
+  .btn-grad {
+    padding: 8px 15px !important;
+    font-size: 0.8rem !important;
+  }
+  .badges-container {
+    gap: 6px;
+  }
+  .badge {
+    font-size: 0.7rem !important;
+    padding: 5px 10px;
   }
 }
