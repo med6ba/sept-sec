@@ -8,7 +8,6 @@ Sept Sec (7S) is a professional dry cleaning service website catering to both bu
 
 - **Responsive Design**: Fully responsive website that works across desktop, tablet, and mobile devices
 - **Modern UI**: Clean, professional interface with intuitive navigation
-- **Bootstrap Framework**: Built with Bootstrap for consistent styling and components
 
 ## Pages
 
