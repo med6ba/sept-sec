@@ -1,4 +1,4 @@
-# Sept Sec (7S) - Professional Dry Cleaning Service
+# Sept Sec (7S)
 
 ![7S Logo](assets/images/7S.png)
 
@@ -40,7 +40,7 @@ cd sept-sec
 
 ## Deployment
 
-The website is currently deployed on Vercel at [https://sept-sec.vercel.app](https://sept-sec.vercel.app)
+The website is currently deployed on Vercel at [View DEMO](https://sept-sec.vercel.app)
 
 ## Key Features Highlighted
 
@@ -58,4 +58,4 @@ The website is currently deployed on Vercel at [https://sept-sec.vercel.app](htt
 
 ## License
 
-This project is licensed under the MIT License - see the <a href="https://www.github.com/med6ba/sept-sec/LICENSE">LICENSE</a> file for details.
+This project is licensed under the MIT License - see the <a href="https://github.com/med6ba/sept-sec/blob/main/LICENSE">LICENSE</a> file for details.
