@@ -1,7 +1,5 @@
 # Sept Sec (7S)
 
-![7S Logo](assets/images/7S.png)
-
 ## Overview
 
 Sept Sec (7S) is a professional dry cleaning service website catering to both businesses and individuals. The site showcases eco-friendly cleaning services provided by expert cleaners who are trusted by over 50 businesses.
@@ -22,7 +20,7 @@ Sept Sec (7S) is a professional dry cleaning service website catering to both bu
 
 ## Technology Stack
 
-
+![HTML](https://img.shields.io/badge/-HTML-orange?logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-blue?logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=white)
 
 ## Setup and Installation
 
